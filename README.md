@@ -14,8 +14,8 @@ var string        = "İstanbul",
     suffix        = "de",
     apostrof      = true,
     apostrofMark  = "'";
-var newString = suffixes(string, suffix, true, "'"); //İstanbul'da
-console.log(newString);
+var newString = suffixes(string, suffix, true, "'");
+console.log(newString); //İstanbul'da
 ```
 
 
