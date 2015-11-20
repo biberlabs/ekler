@@ -122,6 +122,6 @@ function suffixes(string,suffix,apostrof,apostrofMark){
             }
         break;
     }
-   	var result = string + apostrofMark + stringSuffix;
+    var result = string + apostrofMark + stringSuffix;
     return result;
 }
