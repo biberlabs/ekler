@@ -3,15 +3,19 @@ Türkçe'de kullanılan eklerin javascript ile kontrolü ve eklenmesi. Herhangi 
 
 #değişkenler ve değerleri
 ```text
-ek -> "in", "e", "i", "de", "den", "ile"
-ayraç -> true, false (false ise ayraç kullanılmaz.)
-ayraçişareti -> "'","`" (Hangi işaret ile ayrılmak istenirse o kullanılabilir.)
+ekler -> "in", "e", "i", "de", "den", "ile"
+ayraçlar -> true, false (false ise ayraç kullanılmaz.)
+ayraçişaretleri -> "'","`" (Hangi işaret ile ayrılmak istenirse o kullanılabilir.)
 ```
 
 ## örnekler
 ```js
-var ekler = suffixes("İstanbul", "de", true, "'"); //İstanbul'da
-console.log(ekler);
+var string        = "İstanbul",
+    suffix        = "de",
+    apostrof      = true,
+    apostrofMark  = "'";
+var newString = suffixes(string, suffix, true, "'"); //İstanbul'da
+console.log(newString);
 ```
 
 
