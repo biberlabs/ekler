@@ -18,5 +18,8 @@ var newString = suffixes(string, suffix, apostrof, apostrofMark);
 console.log(newString); //İstanbul'da
 ```
 
+https://www.npmjs.com/package/turkish-suffixes
+https://github.com/bhdrgkz/turkish-suffixes
+
 
 
