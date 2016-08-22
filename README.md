@@ -1,5 +1,9 @@
 # ekler
 Türkçe'de kullanılan eklerin javascript ile kontrolü ve eklenmesi. Herhangi bir ek kütüphaneye ihtiyaç duymaz.
+```text
+https://www.npmjs.com/package/turkish-suffixes
+https://github.com/bhdrgkz/turkish-suffixes
+```
 
 #değişkenler ve değerleri
 ```text
@@ -18,8 +22,6 @@ var newString = suffixes(string, suffix, apostrof, apostrofMark);
 console.log(newString); //İstanbul'da
 ```
 
-https://www.npmjs.com/package/turkish-suffixes
-https://github.com/bhdrgkz/turkish-suffixes
 
 
 
